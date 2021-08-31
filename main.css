@@ -1,0 +1,113 @@
+.wrap{
+    width: auto;
+    min-height: 600px;
+}
+.menu{
+    height: 66px;
+    /*background:silver;*/
+    border-bottom: 3px solid #c4c4c4;
+    display: flex;
+}
+.menu-left,.menu-right{
+    width: 720px;
+    height: 66pX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-left>a{
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.menu-left>a:hover{
+    font-weight: 700;
+}
+.menu-right>a{
+color: silver;
+font-size: 18px;
+text-decoration: none;
+margin-right: 30px;
+transition: 0.3s;
+}
+.menu-right>a:hover{
+    color:#30ABAE;
+}
+
+#carouselExampleCaptions > div.carousel-inner > div.carousel-item> div>h5{
+    color: #000;
+    font-size: 100px;
+    font-weight: 700;
+}
+.places-box >h3{
+    text-align: center;
+    margin-top: 100px;   
+}
+h1{
+    margin-left:150px;
+    font-size: 350%
+}
+.places{
+    display: flex;
+    justify-content: space-around;
+}
+.places2{
+    display: flex;
+    justify-content: space-around;
+}
+.place{
+    width: 342px;
+}
+.place h4{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.place p{
+    text-align: justify;
+    border-left: 2px solid #ED8651 ;
+    padding-left: 25px;
+}
+.footer{
+    height: 90px;
+    background:#16595a ;
+    margin-top: 100px;
+}
+
+.osn{
+    display: flex;
+
+}
+
+.one{
+    margin: 4em;
+    width: 342px;
+}
+
+.two{
+    margin: 4em;
+}
+.two p{
+    text-align: justify;
+}
+.place2 h3{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.place2
+{
+    display: flex;
+    justify-content: center;
+}
+.style-box{
+    position: absolute;
+    width: 550px;
+    height: 420px;
+    background: #f2f5f1;
+    z-index: -500;
+    bottom: 100px;
+}
